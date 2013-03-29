@@ -1,0 +1,48 @@
+/*** Common ***/
+.reset{
+	list-style:none inside;
+	margin:0;
+	padding:0;
+}
+
+label{
+	cursor:pointer;
+}
+
+div, img{
+	vertical-align:top;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clear{
+	clear:both
+}
+
+a,a:visited{
+	color:#00f;
+	text-decoration:none;
+}
+
+body{
+	background:#fff;
+	color:#000;
+	text-align:center;
+}
+
+#wrapper{ 
+	margin:0 auto; 
+	text-align:left;
+	width:960px;
+}
+
+/*** Font Assignments ***/
+body{
+	font-family: Georgia,serif;
+}

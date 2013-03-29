@@ -1,0 +1,7 @@
+/**
+ * Clearfix for IE
+ */
+.clearfix {
+    zoom:               1;   
+    display:            block;     
+}
